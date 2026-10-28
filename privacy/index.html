@@ -55,7 +55,7 @@ This all happens on the phone. Your files leave it only when you turn on upload 
 <h2>Google services</h2>
 <ul>
   <li><strong>Google Maps.</strong> When you open the details of a photo that has a location, the map comes from Google. Google receives
-      the map area on screen (roughly where the photo was taken) and standard device and network information. The photo is not sent.
+      the map area on screen (roughly where the photo was taken) and standard device and network information. The photo is not sent. The Maps SDK also reports crashes inside its own code and basic usage diagnostics to Google.
       See the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</li>
   <li><strong>Firebase Remote Config.</strong> The app fetches feature switches and service notices from Firebase. This sends a Firebase
       installation ID, the app version and device details such as language and Android version. No photos and no Apple Account data.</li>
@@ -64,7 +64,7 @@ This all happens on the phone. Your files leave it only when you turn on upload 
 
 <h2>What we don’t do</h2>
 <ul>
-  <li>No ads, no analytics, no crash-reporting services, no tracking.</li>
+  <li>No ads and no tracking. We don’t add analytics or crash-reporting services; the only diagnostics are the ones Google Maps and Firebase collect for their own services, described above.</li>
   <li>We don’t sell or share personal data.</li>
   <li>We have no user accounts and no server that stores your data.</li>
 </ul>
@@ -116,7 +116,7 @@ Google deletes Firebase installation IDs after a period of inactivity.</p>
 <h2>Сервисы Google</h2>
 <ul>
   <li><strong>Google Карты.</strong> Когда вы открываете сведения о снимке с местом съёмки, карта загружается из Google. Google получает
-      область карты на экране (примерное место съёмки) и стандартные сведения об устройстве и сети. Сам снимок не передаётся.
+      область карты на экране (примерное место съёмки) и стандартные сведения об устройстве и сети. Сам снимок не передаётся. Кроме того, Maps SDK отправляет в Google сведения о сбоях в собственном коде и базовую диагностику использования.
       См. <a href="https://policies.google.com/privacy?hl=ru">политику конфиденциальности Google</a>.</li>
   <li><strong>Firebase Remote Config.</strong> Приложение получает из Firebase переключатели функций и служебные сообщения. При этом передаются
       идентификатор установки Firebase, версия приложения и сведения об устройстве: язык и версия Android. Фото и данных Apple-аккаунта там нет.</li>
@@ -125,7 +125,7 @@ Google deletes Firebase installation IDs after a period of inactivity.</p>
 
 <h2>Чего мы не делаем</h2>
 <ul>
-  <li>Нет рекламы, аналитики, сервисов отчётов о сбоях и отслеживания.</li>
+  <li>Нет рекламы и отслеживания. Мы не подключаем аналитику и сервисы отчётов о сбоях; диагностику собирают только Google Карты и Firebase для своих сервисов, как описано выше.</li>
   <li>Мы не продаём и не передаём персональные данные.</li>
   <li>У нас нет аккаунтов пользователей и сервера, где хранились бы ваши данные.</li>
 </ul>
