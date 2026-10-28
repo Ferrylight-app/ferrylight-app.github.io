@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 108 108">
+    <!-- Ferrylight «Два берега», full square for Play; app layers: app/src/main/res/drawable/ic_launcher_*.xml -->
+    <rect width="108" height="108" fill="#2E6F95"/>
+    <path fill="#EDDCB9" d="M-2 60H34Q44 60 44 70V110H-2Z"/>
+    <path fill="#091D29" d="M64 56H110V110H64Z"/>
+    <path fill="none" stroke="#F9F6F1" stroke-width="6" stroke-linecap="round" d="M30 60Q54 18 76 56"/>
+    <circle cx="53.5" cy="38" r="9.5" fill="#2E6F95"/>
+    <circle cx="53.5" cy="38" r="6" fill="#FFCB70"/>
+</svg>
